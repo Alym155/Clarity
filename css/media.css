@@ -1,0 +1,41 @@
+@media (min-width: 640px)  { }
+
+@media (min-width: 768px)  {
+  #Technology .card-body {
+    font-size: 14px;
+    height: 310px;
+  }
+
+  #Technology .card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+  }
+
+  #Technology .card-body .bill {
+    padding: 2px 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* col-lg-4 kicks in here (3-up cards): back to the base 16px scale. */
+  #Technology .card-body {
+    font-size: 16px;
+    height: 340px;
+  }
+
+  #Technology .card-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+  }
+
+  #Technology .card-body .bill {
+    padding: 0.25rem 1rem;
+  }
+
+}
+
+@media (min-width: 1024px) { }
+@media (min-width: 1280px) { }
+@media (min-width: 1536px) { }
